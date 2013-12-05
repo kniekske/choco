@@ -1,0 +1,19 @@
+<div class='field'>
+	<%= f.label :name %><br/>
+	<%= f.text_field :name %>
+</div>
+
+<div class='field'>
+	<%= f.label :description %><br/>
+	<%= f.text_area :description %>
+</div>
+
+<div class='field'>
+	<%= f.label :brand %><br/>
+	<%= f.text_field :brand %>
+</div>
+
+<div class='field'>
+	<%= f.label :cocoa_percentage %><br/>
+	<%= f.number_field :cocoa_percentage, min: 0, max: 100 %>
+</div>

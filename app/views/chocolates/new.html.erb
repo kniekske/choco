@@ -1,0 +1,10 @@
+<h1>Add your chocolate!</h1>
+
+<%= form_for (@chocolate) do |f| %>
+	<%= render 'fields', f: f %>
+
+	<div class='actions'>
+		<%= f.submit 'Add your chocolate' %>
+	</div>
+
+<% end %>

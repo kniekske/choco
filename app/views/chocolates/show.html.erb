@@ -1,0 +1,17 @@
+<h1>Chocolate</h1>
+<h2>
+	<%= @chocolate.name %>
+</h2>
+<p>
+	<%= @chocolate.description %>
+</p>
+<p>
+	Brand:	<%= @chocolate.brand %>
+</p>
+<p>
+	Cocoa Percentage <%= @chocolate.cocoa_percentage %>
+	&#37;
+</p>	
+
+<%= link_to 'Edit', edit_chocolate_path(@chocolate) %>
+<%= link_to 'Destroy', @chocolate, method: :delete, data: { confirm: 'Are you sure?' } %>

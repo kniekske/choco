@@ -11,3 +11,23 @@
  *= require_self
  *= require_tree .
  */
+body {
+	color:white; 
+	background-color: #D65C33;
+	font-family: Impact; 
+}
+
+h1 {
+	color:#472400;
+	font-size: 144px;
+}
+
+th {
+	text-decoration: underline; 
+	font-size: 50px;
+	letter-spacing: 4px;
+}
+
+a {
+	color:maroon; 
+}
