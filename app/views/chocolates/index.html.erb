@@ -1,6 +1,29 @@
-<h1>Chocolates!</h1>
+<head>Chocolates!</head>
 
-<table>
+
+
+<h1>Add your favourite chocolate!</h1>
+
+
+
+<%= link_to 'New Chocolate', new_chocolate_path %>
+
+
+
+
+
+
+<div class="bottom">
+  <div style="float: left; width: 65%;"></div>
+  <div style="float: right; width: 35%;">
+  	Hi Chocolatelover!
+ 	<br> 
+ 	Welcome to my site where you can add your favourite chocolate.
+  </div>
+</div>
+
+
+<table width= 65%>
   <tr>
     <th>Name</th>
     <th>Description</th>
@@ -21,9 +44,14 @@
     <td><%= link_to 'Edit', edit_chocolate_path(chocolate) %></td>
     <td><%= link_to 'Destroy', chocolate, method: :delete, data: { confirm: 'Are you sure?' } %></td>
   </tr>
+
+
 <% end %>
 </table>
 
-<br />
 
-<%= link_to 'New Chocolate', new_chocolate_path %>
+<h2>
+<img src="http://i1350.photobucket.com/albums/p770/moniekverlaek/spicebars_zpsfc3ea32b.jpg" height= 600px, width= 65%/>
+</h2>
+
+<br />

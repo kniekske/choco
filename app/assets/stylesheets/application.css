@@ -11,23 +11,67 @@
  *= require_self
  *= require_tree .
  */
-body {
-	color:white; 
-	background-color: #D65C33;
-	font-family: Impact; 
-}
 
-h1 {
+body {
+	color:#401C0F; 
+	background-color: maroon;
+	font-family: Impact; 
 	color:#472400;
 	font-size: 144px;
 }
 
-th {
-	text-decoration: underline; 
-	font-size: 50px;
-	letter-spacing: 4px;
+p {
+	color:#472400;
+	font-size: 24px;
+	line-height: 30px; 
+}
+
+div {
+	color:#472400;
+	font-size: 24px;
+	line-height: 30px;
+
+
+}
+
+h1 {
+	color:#472400;
+	font-size: 64px;
+	line-height: 30px;
+}
+
+h2 {
+	color:#472400;
+	font-size: 36px;
+	line-height: 30px;
 }
 
 a {
-	color:maroon; 
+	color:#472400; 
+	font-size: 24px;
+	letter-spacing: 4px;
+	font-family: Verdana;
+	background-color: #AD855C;
+	line-height: 20px;
 }
+
+th {
+	font-size: 24px;
+	letter-spacing: 4px;
+	font-family: Verdana;
+	line-height: 20px;
+}
+
+tr {
+	font-size: 18px;
+	font-family: Verdana;
+	background-color: #AD855C;
+	line-height: 20px;
+}
+
+col {width: 35%;
+	float:right ;}
+
+
+
+
