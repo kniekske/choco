@@ -6,5 +6,5 @@ class Chocolate < ActiveRecord::Base
 		:less_than_or_equal_to =>100 
 
 
-	mount_uploader :image, Imageuploader
+	mount_uploader :image, ImageUploader
 end

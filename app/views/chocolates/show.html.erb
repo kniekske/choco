@@ -13,12 +13,9 @@
 	&#37;
 </p>	
 
-<p> class='field'>
-	<%= f.file_field :image %>
-</p>
 
 <div id="chocolates">
-  <% @gallery.paintings.each do |painting| %>
+  <%= image_tag @chocolate.image %>
     <div class="chocolate">
       <%= image_tag painting.image_url.to_s %>
       <div class="name"><%= chocolate.name %></div>
