@@ -30,8 +30,6 @@ div {
 	color:#472400;
 	font-size: 24px;
 	line-height: 30px;
-
-
 }
 
 h1 {
@@ -53,6 +51,10 @@ a {
 	font-family: Verdana;
 	background-color: #AD855C;
 	line-height: 20px;
+}
+
+a.button {
+	color:blue;
 }
 
 th {

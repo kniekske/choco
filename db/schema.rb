@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131203131704) do
+ActiveRecord::Schema.define(version: 20131219101653) do
 
   create_table "chocolates", force: true do |t|
     t.string   "name"
@@ -20,6 +20,19 @@ ActiveRecord::Schema.define(version: 20131203131704) do
     t.integer  "cocoa_percentage"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "image"
   end
+
+  create_table "comments", force: true do |t|
+    t.string   "name"
+    t.integer  "rating"
+    t.text     "comment"
+    t.string   "email"
+    t.integer  "chocolate_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "comments", ["chocolate_id"], name: "index_comments_on_chocolate_id"
 
 end
