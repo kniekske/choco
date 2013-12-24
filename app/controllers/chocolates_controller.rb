@@ -41,7 +41,7 @@ class ChocolatesController < ApplicationController
 	end
 
 	def permitted_params
-		params.require(:chocolate).permit(:name, :description, :brand, :cocoa_percentage)
+		params.require(:chocolate).permit(:name, :description, :brand, :cocoa_percentage, :image)
 	end
 
 
